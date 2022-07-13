@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'Mansalva', cursive;
+}
+
+.carta{
+   width: 250px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(199,191,199,1);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(199,191,199,1);
+   box-shadow: 10px 10px 5px 0px rgba(199,191,199,1);
+   border-radius: 15%;
+}
+
+.carta .icono{
+   background-color: #E8AA42;
+   width: 100%;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-left-radius: 13%;
+   border-top-right-radius: 13%;
+}
+
+.carta img{
+   width: 70px;
+   height: 70px;
+   padding: 5px;
+   background-color: #1F4690;
+   border-radius: 100%;
+}
+
+.carta .texto{
+   display: flex;
+   align-items: center;
+   background-color: #1F4690;
+   height: 100%;
+   border-bottom-left-radius: 10%;
+   border-bottom-right-radius: 10%;
+   border-top: 9px solid #FFE5B4;
+}
+
+.carta p{
+   text-align: center;
+   color: #FFE5B4;
+   padding: 20px;
+   font-weight: 100;
+}
